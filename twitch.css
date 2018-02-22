@@ -1,0 +1,100 @@
+body{
+  padding: 20px;
+  background: #6441a4;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+h1{
+    text-align: center;
+  text-decoration: underline;
+  font-family: "Georgia";
+  font-size: 50px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  vertical-align: bottom;
+}
+
+.tab-panels ul{
+  margin: 0;
+  padding: 0;
+}
+
+.tab-panels ul li{
+  list-style-type: none;
+  display: inline-block;
+  background: #1730d2;
+  margin: 0;
+  padding: 3px 10px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.tab-panels ul li.active{
+  color: #fff;
+  background: #17add3;
+}
+
+.tab-panels .myPanel{
+  display: none;
+  background: #2c2541;
+  text-align: left;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  margin: 0 50px 50px 50px;
+}
+
+.tab-panels .myPanel.active{
+  display: block;
+  margin: 0 50px 50px 50px;
+}
+
+.channelBoxes{
+  padding-left: 20px;
+  background-color: lightcoral;
+}
+
+.channelBoxesOnline{
+  font-size: 1.2em;
+  padding-left: 20px;
+  background-color: mediumseagreen;
+  border: 5px solid mediumseagreen;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+.channelBoxesOnline a{
+  color: white;
+}
+
+.channelBoxesSpan{
+  background: rgba(42, 42, 48, 0.7);
+  border-radius: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+.twitch-logo-div{
+  height: 200px;
+  width: 750px;
+  
+}
+
+.twitch-logo-div img{
+  width: 750px;
+  height: 200px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#header{
+  position: absolute;
+  bottom: 0;
+}
+
+.textBar{
+  border-radius: 2px;
+  padding: 5px;
+}
